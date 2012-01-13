@@ -14,11 +14,10 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "mini-factories"
-  gem.homepage = "http://github.com/seangeo/mini-factories"
+  gem.name = "no_factory"
+  gem.homepage = "http://github.com/seangeo/no_factories"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{TODO: Object Factories that aren't really Factories, or are they?}
   gem.email = "sgeoghegan@codefire.com.au"
   gem.authors = ["Sean Geoghegan"]
   # dependencies defined in Gemfile
@@ -43,7 +42,7 @@ Rake::RDocTask.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ""
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "mini-factories #{version}"
+  rdoc.title = "no-factory #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
