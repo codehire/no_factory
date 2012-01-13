@@ -1,6 +1,5 @@
 require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
 
-require 'pry'
 describe "NoFactory" do
   let(:mock_test_obj) { Hash.new }
 
