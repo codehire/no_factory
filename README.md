@@ -10,7 +10,7 @@ Initially we used FactoryGirl on the project, which is usually really
 good, but we hit a bit of a wall. The object graphs we needed to build
 in the tests involved multiple, multi-parent hierarchies and associations
 between nodes in these heirarchies. FactoryGirl didn't handle these associations very well at all. It would create multiple instances of objects
-where we only wanted one and repeatedly building the hierarcies was very slow.
+where we only wanted one and repeatedly building the heirarchies was very slow.
 On top of that, even when we didn't need the heirarchies saved to the database,
 using Factory.build, the associated objects were saved to the DB. So, Factory.build only saved us a single DB write.
 
@@ -49,7 +49,7 @@ Include NoFactory in your spec_helper:
 
 Then, in a spec, include the module using the factory helper.
 This will put the module methods in the scope of your spec
-and give you additional methods, your module methods with a !
+and give you additional methods, your module methods with a !,
 that will call save! on the objects returned by the module methods.
 
 	describe Person
