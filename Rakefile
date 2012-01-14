@@ -17,7 +17,7 @@ Jeweler::Tasks.new do |gem|
   gem.name = "no_factory"
   gem.homepage = "http://github.com/seangeo/no_factory"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: Object Factories that aren't really Factories, or are they?}
+  gem.summary = %Q{Object Factories that aren't really Factories, or are they?}
   gem.email = "sgeoghegan@codefire.com.au"
   gem.authors = ["Sean Geoghegan"]
   # dependencies defined in Gemfile
