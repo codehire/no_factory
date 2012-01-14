@@ -1,4 +1,4 @@
-# no-factories
+# no-factory
 
 ## Why another factory library?
 
